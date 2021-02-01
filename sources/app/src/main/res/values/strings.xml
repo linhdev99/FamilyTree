@@ -2,12 +2,13 @@
     <string name="app_name">Family Tree 2020</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_name">Huỳnh Phạm Phước Linh</string>
+    <string name="nav_header_email">adhppl99@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_profile">Thông tin cá nhân</string>
+    <string name="menu_login">Đăng nhập</string>
+    <string name="menu_logout">Đăng xuất</string>
 </resources>
