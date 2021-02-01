@@ -61,8 +61,4 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    public void onClickNavBtnHome()
-    {
-
-    }
 }
