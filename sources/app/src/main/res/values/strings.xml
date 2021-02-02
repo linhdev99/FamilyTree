@@ -11,4 +11,7 @@
     <string name="menu_profile">Thông tin cá nhân</string>
     <string name="menu_login">Đăng nhập</string>
     <string name="menu_logout">Đăng xuất</string>
+
+    <string name="name_default">Huỳnh Phạm Phước Linh</string>
+    <string name="email_default">linh.huynh.bku.99@hcmut.edu.vn</string>
 </resources>
