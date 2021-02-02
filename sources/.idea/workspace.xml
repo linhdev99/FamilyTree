@@ -7,11 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/LoginDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/LoginRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/model/LoggedInUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/avatar.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/home/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/login/LoginFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/profile/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/ui/profile/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +57,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image" />
       <recent name="D:\Family Tree\sources\app\src\main\res" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image\person" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,10 +159,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="540" y="279" key="AndroidCreateResourceFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612272496929" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612142266613">
+    <state x="804" y="314" key="AndroidCreateXmlResourceDialog" timestamp="1612279479570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612142266613" />
+    <state x="804" y="314" key="AndroidCreateXmlResourceDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612279479570" />
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1612277968820">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1612277968820" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612274888800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612274888800" />
     <state x="472" y="267" key="IDE.errors.dialog" timestamp="1612257112363">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

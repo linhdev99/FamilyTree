@@ -6,16 +6,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login Fragment"
-        android:textSize="30dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/login_upper"
+        android:textColor="@color/secondary_text"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/icon_tree_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="280dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/ic_username"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName"
+        android:nestedScrollingEnabled="false"
+        android:singleLine="false"
+        android:textColor="#3C3F41"
+        android:textColorHighlight="#C8E6C9"
+        android:textColorHint="#BDBDBD"
+        android:textColorLink="#388E3C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="280dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:nestedScrollingEnabled="false"
+        android:singleLine="false"
+        android:textColor="#3C3F41"
+        android:textColorHighlight="#C8E6C9"
+        android:textColorHint="#BDBDBD"
+        android:textColorLink="#388E3C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_username" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FFC107"
+        android:drawableStart="@drawable/ic_baseline_lock_open_24"
+        android:text="@string/login_upper"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_password"
+        app:layout_constraintVertical_bias="0.161" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
