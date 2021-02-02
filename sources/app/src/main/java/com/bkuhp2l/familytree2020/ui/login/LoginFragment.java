@@ -22,7 +22,7 @@ public class LoginFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         loginViewModel =
                 new ViewModelProvider(this).get(LoginViewModel.class);
-        View root = inflater.inflate(R.layout.activity_main, container, false);
+        View root = inflater.inflate(R.layout.fragment_login, container, false);
 //        final TextView textView = root.findViewById(R.id.text_slideshow);
 //        loginViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
 //            @Override
