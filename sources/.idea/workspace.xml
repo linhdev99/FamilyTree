@@ -7,26 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_black_right_line.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_button_violet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_circle_heart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_login_textbox.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/SVG/ui_button_violet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/SVG/ui_circle_heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/0.75x/Asset 1ldpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/1.5x/Asset 1hdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/1x/Asset 1mdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/2x/Asset 1xhdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/3x/Asset 1xxhdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/4x/Asset 1xxxhdpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/SVG/Asset 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/login_textbox/SVG/Asset 4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ui/17271 [Converted].ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_bg_gradient_lunada.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_gradient_button_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_button_violet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_button_violet_default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/17271 [Converted].ai" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/17271 [Converted].ai" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -64,18 +53,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Family Tree\sources\app\src\main\res" />
       <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image\person" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
+      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -166,14 +156,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="545" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612144292774" />
-    <state x="540" y="279" key="AndroidCreateResourceFileDialog" timestamp="1612272496929">
+    <state x="540" y="279" key="AndroidCreateResourceFileDialog" timestamp="1612343919617">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="540" y="279" key="AndroidCreateResourceFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612272496929" />
-    <state x="804" y="314" key="AndroidCreateXmlResourceDialog" timestamp="1612279479570">
+    <state x="540" y="279" key="AndroidCreateResourceFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612343919617" />
+    <state x="804" y="314" key="AndroidCreateXmlResourceDialog" timestamp="1612344572797">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="804" y="314" key="AndroidCreateXmlResourceDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612279479570" />
+    <state x="804" y="314" key="AndroidCreateXmlResourceDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612344572797" />
     <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1612315953778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -198,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1876" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612323572874" />
-    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog" timestamp="1612322826520">
+    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog" timestamp="1612344478268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612322826520" />
+    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612344478268" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1612140197822">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

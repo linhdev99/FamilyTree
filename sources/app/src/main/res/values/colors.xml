@@ -46,4 +46,8 @@
     <color name="theme_bg_1">#f2f2f3</color>
     <color name="theme_bg_2">#ffffff</color>
 
+    <color name="lunada_violet">#5433FF</color>
+    <color name="lunada_blue">#20BDFF</color>
+    <color name="lunada_green">#A5FECB</color>
+
 </resources>

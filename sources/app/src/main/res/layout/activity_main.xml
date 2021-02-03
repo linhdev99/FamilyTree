@@ -39,6 +39,9 @@
         android:id="@+id/nav_view"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"
+        app:itemIconTint="@color/theme_text_1"
+        app:itemTextColor="@color/theme_text_1"
+
         />
 
 
