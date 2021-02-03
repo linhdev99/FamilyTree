@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ui/freepik_4011794.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +49,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
-      <recent name="D:\Family Tree\sources\app\src\main\res\image" />
-      <recent name="D:\Family Tree\sources\app\src\main\res" />
-      <recent name="D:\Family Tree\sources\app\src\main\res\image\person" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Family Tree\sources\app\src\main\res" />
+      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
+      <recent name="D:\Family Tree\sources\app\src\main\res\image" />
+      <recent name="D:\Family Tree\sources\app\src\main\res\image\person" />
     </key>
   </component>
   <component name="RunManager">

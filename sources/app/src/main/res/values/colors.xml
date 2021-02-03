@@ -34,6 +34,14 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
 
-
+    <color name="theme_text_1">#2a3747</color>
+    <color name="theme_text_2">#808080</color>
+    <color name="theme_text_3">#cccccc</color>
+    <color name="theme_red">#fa4141</color>
+    <color name="theme_violet">#7755cc</color>
+    <color name="theme_orange">#ff9633</color>
+    <color name="theme_green">#34c47e</color>
+    <color name="theme_pink">#ff70aa</color>
+    <color name="theme_blue">#0368ff</color>
 
 </resources>
