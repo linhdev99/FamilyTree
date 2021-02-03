@@ -43,5 +43,7 @@
     <color name="theme_green">#34c47e</color>
     <color name="theme_pink">#ff70aa</color>
     <color name="theme_blue">#0368ff</color>
+    <color name="theme_bg_1">#f2f2f3</color>
+    <color name="theme_bg_2">#ffffff</color>
 
 </resources>

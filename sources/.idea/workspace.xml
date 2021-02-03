@@ -7,6 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_black_right_line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_button_violet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_circle_heart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_login_textbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/SVG/ui_button_violet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/SVG/ui_circle_heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/0.75x/Asset 1ldpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/1.5x/Asset 1hdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/1x/Asset 1mdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/2x/Asset 1xhdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/3x/Asset 1xxhdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/4x/Asset 1xxxhdpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/linh_right_black/SVG/Asset 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../texture/login_textbox/SVG/Asset 4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/17271 [Converted].ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +33,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_27]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -159,14 +178,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1612315953778" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612274888800">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612323827682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612274888800" />
-    <state x="472" y="267" key="IDE.errors.dialog" timestamp="1612257112363">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612323827682" />
+    <state width="1876" height="285" key="GridCell.Tab.0.bottom" timestamp="1612323572874">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="472" y="267" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612257112363" />
+    <state width="1876" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1612323572874" />
+    <state width="1876" height="285" key="GridCell.Tab.0.center" timestamp="1612323572873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1612323572873" />
+    <state width="1876" height="285" key="GridCell.Tab.0.left" timestamp="1612323572873">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1612323572873" />
+    <state width="1876" height="285" key="GridCell.Tab.0.right" timestamp="1612323572874">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1876" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1612323572874" />
+    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog" timestamp="1612322826520">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="472" y="267" width="973" height="521" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612322826520" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1612140197822">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
