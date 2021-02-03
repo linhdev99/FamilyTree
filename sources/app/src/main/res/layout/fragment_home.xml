@@ -11,6 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold_italic"
         android:text="Home Fragment"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

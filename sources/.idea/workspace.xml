@@ -7,14 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/LoginDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/LoginRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/bkuhp2l/familytree2020/data/model/LoggedInUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../texture/avatar.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/freepik_4011794.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +33,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_27]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -163,10 +174,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="804" y="314" key="AndroidCreateXmlResourceDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1612279479570" />
-    <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1612277968820">
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1612315953778">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1612277968820" />
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1612315953778" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612274888800">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
