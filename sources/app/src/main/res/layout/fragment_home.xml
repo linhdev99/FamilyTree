@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/header_layout"
         android:layout_width="match_parent"
         android:layout_height="176dp"
         android:background="@drawable/ui_bg_gradient_cover_1"
@@ -18,13 +18,142 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/body_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+        app:layout_constraintTop_toBottomOf="@+id/header_layout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableLayout
+                android:id="@+id/button_table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="254dp"
+                android:stretchColumns="*"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/button_profile"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_profile"
+                        android:textColor="@color/theme_text_1" />
+
+                    <Button
+                        android:id="@+id/button_drawTree"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_drawTree"
+                        android:textColor="@color/theme_text_1" />
+
+                    <Button
+                        android:id="@+id/button_callLevel"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_callLevel"
+                        android:textColor="@color/theme_text_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button_addMember"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_add"
+                        android:textColor="@color/theme_text_1" />
+
+                    <Button
+                        android:id="@+id/button_updateMember"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_update"
+                        android:textColor="@color/theme_text_1" />
+
+                    <Button
+                        android:id="@+id/button_delMember"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_del"
+                        android:textColor="@color/theme_text_1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/button_changePassword"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_password"
+                        android:textColor="@color/theme_text_1" />
+
+                    <Button
+                        android:id="@+id/button_setting"
+                        style="?attr/buttonBarButtonStyle"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/string_button_setting"
+                        android:textColor="@color/theme_text_1" />
+
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/button_information"
@@ -33,128 +162,12 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="30dp"
             android:clickable="true"
+            android:contentDescription="@string/app_name"
             app:backgroundTint="@color/lunada_violet"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_information"
-            android:contentDescription="@string/app_name" />
-
-        <TableLayout
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:stretchColumns="*"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/button_profile"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_profile"
-                    android:textColor="@color/theme_text_1" />
-
-                <Button
-                    android:id="@+id/button_drawTree"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_drawTree"
-                    android:textColor="@color/theme_text_1" />
-
-                <Button
-                    android:id="@+id/button_callLevel"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_callLevel"
-                    android:textColor="@color/theme_text_1" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/button_addMember"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_add"
-                    android:textColor="@color/theme_text_1" />
-
-                <Button
-                    android:id="@+id/button_updateMember"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_update"
-                    android:textColor="@color/theme_text_1" />
-
-                <Button
-                    android:id="@+id/button_delMember"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_del"
-                    android:textColor="@color/theme_text_1" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/button_changePassword"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_password"
-                    android:textColor="@color/theme_text_1" />
-
-                <Button
-                    android:id="@+id/button_setting"
-                    style="?attr/buttonBarButtonStyle"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="@color/white"
-                    android:drawableTop="@drawable/ic_menu_slideshow"
-                    android:fontFamily="@font/roboto_medium"
-                    android:text="@string/string_button_setting"
-                    android:textColor="@color/theme_text_1" />
-
-            </TableRow>
-
-        </TableLayout>
+            android:focusable="true" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
