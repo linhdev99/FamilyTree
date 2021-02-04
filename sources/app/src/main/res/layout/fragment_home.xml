@@ -15,6 +15,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_person_boy" />
+
+        <TextView
+            android:id="@+id/text_name_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/name_default"
+            android:textAllCaps="true"
+            android:textColor="@color/theme_bg_1"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/text_nickname_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/nickname_default"
+            android:textColor="@color/theme_bg_1"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_name_header" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -56,7 +95,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_person"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_profile"
                         android:textColor="@color/theme_text_1" />
@@ -67,20 +106,20 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_tree_home"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_drawTree"
                         android:textColor="@color/theme_text_1" />
 
                     <Button
-                        android:id="@+id/button_callLevel"
+                        android:id="@+id/button_find"
                         style="?attr/buttonBarButtonStyle"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_findperson"
                         android:fontFamily="@font/roboto_medium"
-                        android:text="@string/string_button_callLevel"
+                        android:text="@string/string_button_find"
                         android:textColor="@color/theme_text_1" />
 
                 </TableRow>
@@ -95,7 +134,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_addperson"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_add"
                         android:textColor="@color/theme_text_1" />
@@ -106,7 +145,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_updateperson"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_update"
                         android:textColor="@color/theme_text_1" />
@@ -117,7 +156,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_deleteperson"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_del"
                         android:textColor="@color/theme_text_1" />
@@ -134,7 +173,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_changepassword"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_password"
                         android:textColor="@color/theme_text_1" />
@@ -145,7 +184,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:backgroundTint="@color/white"
-                        android:drawableTop="@drawable/ic_menu_slideshow"
+                        android:drawableTop="@drawable/ic_setting"
                         android:fontFamily="@font/roboto_medium"
                         android:text="@string/string_button_setting"
                         android:textColor="@color/theme_text_1" />

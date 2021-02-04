@@ -14,12 +14,13 @@
     <string name="menu_logout">Đăng xuất</string>
 
     <string name="name_default">Huỳnh Phạm Phước Linh</string>
+    <string name="nickname_default">(Uzumaki Naruto)</string>
     <string name="email_default">linh.huynh.bku.99@hcmut.edu.vn</string>
     <string name="login_upper">ĐĂNG NHẬP</string>
 
     <string name="string_button_profile">"Thông tin\ncá nhân"</string>
-    <string name="string_button_drawTree">"Vẽ sơ đồ\nPhả hệ"</string>
-    <string name="string_button_callLevel">"\nXưng hô"</string>
+    <string name="string_button_drawTree">"Sơ đồ\nPhả hệ"</string>
+    <string name="string_button_find">"\nTìm kiếm"</string>
     <string name="string_button_add">"Thêm\nthành viên"</string>
     <string name="string_button_update">"Sửa\nthành viên"</string>
     <string name="string_button_del">"Xoá\nthành viên"</string>
