@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Family Tree 2020</string>
+    <string name="app_name">FAMILY TREE 2020</string>
+    <string name="app_copyright">&#169; Phước Linh</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_name">Huỳnh Phạm Phước Linh</string>

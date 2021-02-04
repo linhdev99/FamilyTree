@@ -7,15 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e02829-5ed9-4a0c-993d-a244bc97bc19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_bg_gradient_lunada.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_gradient_button_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Family Tree 2020.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Family Tree 2020.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_ui_button_violet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_button_violet_default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ui_button_violet_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_button_violet_default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/17271 [Converted].ai" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/17271 [Converted].ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +56,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1622031109">
+      <recent name="com.bkuhp2l.familytree2020" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
+      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Family Tree\sources\app\src\main\res" />
       <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image" />
       <recent name="D:\Family Tree\sources\app\src\main\res\image\person" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Family Tree\sources\app\src\main\res\drawable" />
-      <recent name="D:\Family Tree\sources\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050@0.0.1920.1050" timestamp="1612315953778" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612323827682">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1612352835721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612323827682" />
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1612352835721" />
     <state width="1876" height="285" key="GridCell.Tab.0.bottom" timestamp="1612323572874">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
