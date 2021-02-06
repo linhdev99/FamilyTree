@@ -28,7 +28,7 @@
             app:subtitleTextColor="@color/white"
             app:title="@string/app_name"
             app:titleMarginStart="30dp"
-            app:titleTextColor="@color/white" />
+            app:titleTextColor="@color/white"/>
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
